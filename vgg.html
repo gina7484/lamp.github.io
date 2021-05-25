@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>LAMP</title>
+    <!--including css-->
+    <link rel="stylesheet" href="modelpage.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+
+<body>
+    <div class="page-layout">
+        <div class="page-buttons">
+            <button id="change-model">Change Model</button>
+            <button id="back-button">Back</button>
+        </div>
+        <a class="section-title" id="model-overview">model-overview</a>
+        <p class="description">
+            D3 allows you to bind arbitrary data to a Document Object Model
+            (DOM), and then apply data-driven transformations to the document.
+            For example, you can use D3 to generate an HTML table from an array
+            of numbers.
+            Or, use the same data to create an interactive SVG bar chart with
+            smooth transitions and interaction.
+            D3 allows you to bind arbitrary data to a Document Object Model
+            (DOM), and then apply data-driven transformations to the document.
+            For example, you can use D3 to generate an HTML table from an array
+            of numbers.
+            Or, use the same data to create an interactive SVG bar chart with
+            smooth transitions and interaction.
+        </p>
+        <a class="section-title" id="input">Input</a>
+        <p class="description">
+            D3 allows you to bind arbitrary data to a Document Object Model
+            (DOM), and then apply data-driven transformations to the document.
+            For example, you can use D3 to generate an HTML table from an array
+            of numbers.
+            Or, use the same data to create an interactive SVG bar chart with
+            smooth transitions and interaction.
+            D3 allows you to bind arbitrary data to a Document Object Model
+            (DOM), and then apply data-driven transformations to the document.
+            For example, you can use D3 to generate an HTML table from an array
+            of numbers.
+            Or, use the same data to create an interactive SVG bar chart with
+            smooth transitions and interaction.
+        </p>
+        <div>
+            <a class="section-title" id="model">Model</a>
+            <p class="description">
+                D3 allows you to bind arbitrary data to a Document Object Model
+                (DOM), and then apply data-driven transformations to the document.
+                For example, you can use D3 to generate an HTML table from an array
+                of numbers.
+                Or, use the same data to create an interactive SVG bar chart with
+                smooth transitions and interaction.
+                D3 allows you to bind arbitrary data to a Document Object Model
+                (DOM), and then apply data-driven transformations to the document.
+                For example, you can use D3 to generate an HTML table from an array
+                of numbers.
+                Or, use the same data to create an interactive SVG bar chart with
+                smooth transitions and interaction.
+            </p>
+            <div class="subsection">
+                <a class="section-subtitle" id="model-conv">Conv</a>
+                <div id="conv-interactive-panel">
+                    <div class="input-group">
+                        <p class="choose-text">Choose a input image</p>
+                        <div id="conv-input-candidate">
+                            <img src="./image_archive/real_input/building_gray.jpg" alt="building" />
+                            <img src="./image_archive/real_input/windflower_gray.jpg" alt="gray" />
+                            <img src="./image_archive/real_input/windflower_gray.jpg" alt="rat image" />
+                        </div>
+                        <canvas id="conv-input" width="300" height="300">Your browser does not support the HTML5 canvas
+                            tag.</canvas>
+                    </div>
+                    <div class="filter-group">
+                        <p class="choose-text">Choose a filter</p>
+                        <div id="conv-filter-candidate">
+                            <img src="./image_archive/filter/edge_filter.png" alt="edge" />
+                            <img src="./image_archive/filter/edge_filter.png" alt="edge" />
+                            <img src="./image_archive/filter/edge_filter.png" alt="edge" />
+                        </div>
+                        <svg id="grid" width="122px" height="122px">
+                            <g class="row">
+                                <rect class="square" x="7" y="1" width="20" height="20"></rect>
+                                <rect class="square" x="48" y="1" width="20" height="20"></rect>
+                                <rect class="square" x="88" y="1" width="20" height="20"></rect>
+                            </g>
+                            <g class="row">
+                                <rect class="square" x="7" y="42" width="20" height="20"></rect>
+                                <rect class="square" x="48" y="42" width="20" height="20"></rect>
+                                <rect class="square" x="88" y="42" width="20" height="20"></rect>
+                            </g>
+                            <g class="row">
+                                <rect class="square" x="7" y="82" width="20" height="20"></rect>
+                                <rect class="square" x="48" y="82" width="20" height="20"></rect>
+                                <rect class="square" x="88" y="82" width="20" height="20"></rect>
+                            </g>
+                        </svg>
+                        <canvas id="conv-filter" width="100" height="100">Your browser does not support the HTML5
+                            canvas
+                            tag.</canvas>
+                    </div>
+                    <img id="conv-arrow" src='./image_archive/right-arrow.svg'>
+                    <div class=" output-group">
+                        <p class="choose-text">Output</p>
+                        <div id="conv-output">
+                            <img id="conv-output-img" src></img>
+                        </div>
+                    </div>
+                </div>
+                <p class="description">
+                    D3 allows you to bind arbitrary data to a Document Object Model
+                    (DOM), and then apply data-driven transformations to the document.
+                    For example, you can use D3 to generate an HTML table from an array
+                    of numbers.
+                    Or, use the same data to create an interactive SVG bar chart with
+                    smooth transitions and interaction.
+                    D3 allows you to bind arbitrary data to a Document Object Model
+                    (DOM), and then apply data-driven transformations to the document.
+                    For example, you can use D3 to generate an HTML table from an array
+                    of numbers.
+                    Or, use the same data to create an interactive SVG bar chart with
+                    smooth transitions and interaction.
+                </p>
+            </div>
+            <div class="subsection">
+                <a class="section-subtitle" id="model-pool">Pooling</a>
+                <div class="interactive-panel pool">
+
+                </div>
+                <p class="description">
+                    D3 allows you to bind arbitrary data to a Document Object Model
+                    (DOM), and then apply data-driven transformations to the document.
+                    For example, you can use D3 to generate an HTML table from an array
+                    of numbers.
+                    Or, use the same data to create an interactive SVG bar chart with
+                    smooth transitions and interaction.
+                    D3 allows you to bind arbitrary data to a Document Object Model
+                    (DOM), and then apply data-driven transformations to the document.
+                    For example, you can use D3 to generate an HTML table from an array
+                    of numbers.
+                    Or, use the same data to create an interactive SVG bar chart with
+                    smooth transitions and interaction.
+                </p>
+            </div>
+            <div class="subsection">
+                <a class="section-subtitle" id="model-softmax">Softmax</a>
+                <p class="description">
+                    D3 allows you to bind arbitrary data to a Document Object Model
+                    (DOM), and then apply data-driven transformations to the document.
+                    For example, you can use D3 to generate an HTML table from an array
+                    of numbers.
+                    Or, use the same data to create an interactive SVG bar chart with
+                    smooth transitions and interaction.
+                    D3 allows you to bind arbitrary data to a Document Object Model
+                    (DOM), and then apply data-driven transformations to the document.
+                    For example, you can use D3 to generate an HTML table from an array
+                    of numbers.
+                    Or, use the same data to create an interactive SVG bar chart with
+                    smooth transitions and interaction.
+                </p>
+            </div>
+        </div>
+        <a class="section-title" id="output">Output</a>
+        <p class="description">
+            D3 allows you to bind arbitrary data to a Document Object Model
+            (DOM), and then apply data-driven transformations to the document.
+            For example, you can use D3 to generate an HTML table from an array
+            of numbers.
+            Or, use the same data to create an interactive SVG bar chart with
+            smooth transitions and interaction.
+            D3 allows you to bind arbitrary data to a Document Object Model
+            (DOM), and then apply data-driven transformations to the document.
+            For example, you can use D3 to generate an HTML table from an array
+            of numbers.
+            Or, use the same data to create an interactive SVG bar chart with
+            smooth transitions and interaction.
+        </p>
+        <a class="section-title" id="code-materials">Code Materials</a>
+        <p class="description">
+            D3 allows you to bind arbitrary data to a Document Object Model
+            (DOM), and then apply data-driven transformations to the document.
+            For example, you can use D3 to generate an HTML table from an array
+            of numbers.
+            Or, use the same data to create an interactive SVG bar chart with
+            smooth transitions and interaction.
+            D3 allows you to bind arbitrary data to a Document Object Model
+            (DOM), and then apply data-driven transformations to the document.
+            For example, you can use D3 to generate an HTML table from an array
+            of numbers.
+            Or, use the same data to create an interactive SVG bar chart with
+            smooth transitions and interaction.
+        </p>
+    </div>
+    <div>
+        <nav class="floating-menu">
+            <h3>Floating Menu</h3>
+            <a href="#model-overview">Model Overview</a><br />
+            <a href="#input">Input</a><br />
+            <a href="#model">Model</a><br />
+            <a href="#model-conv">- Conv</a><br />
+            <a href="#model-pool">- Pooling</a><br />
+            <a href="#model-softmax">- Softmax</a><br />
+            <a href="#output">Output</a><br />
+            <a href="#code-materials">Code Materials</a><br />
+        </nav>
+    </div>
+    <!--including js-->
+    <script src="vgg.js"></script>
+</body>
+
+</html>

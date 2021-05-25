@@ -1,0 +1,125 @@
+.page-layout{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.model-name{
+    font-size: 48px;
+    text-align: center;
+}
+
+.section-title{
+    font-size: 36px;
+    font-weight: 800;
+}
+.section-subtitle{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.description{
+    font-size: 16px;
+}
+
+#conv-interactive-panel{
+    margin: 5px 15px;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: left;
+}
+
+#conv-interactive-panel .input-group{
+    width: 310px;
+    padding: 10px; /*top-right-bottom-left*/
+}
+
+#conv-interactive-panel .choose-text{
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+#conv-input-candidate{
+    padding: 0px 20px; /*top-left*/
+    display: flex;
+    justify-content: space-between;
+}
+
+#conv-input-candidate img{
+    width: 30%;
+    height: auto;
+}
+
+/*hovered position input*/
+#grid .square{
+    opacity: 0.5; 
+    fill: rgb(100, 167, 206); 
+    stroke: black;
+}
+
+/*filter*/
+#conv-interactive-panel .filter-group{
+    width: 250px;
+    padding: 10px; /*top-right-bottom-left*/
+}
+
+#conv-filter-candidate{
+    padding: 0px 20px; /*top-left*/
+    display: flex;
+    justify-content: space-between;
+}
+
+#conv-filter-candidate img{
+    width: 30%;
+    height: auto;
+}
+
+#conv-input{
+    margin: 10px;
+}
+
+
+/*output*/
+#conv-arrow{
+    width: 64px;
+    height: auto;
+}
+
+/*page buttons*/
+.page-buttons{
+    z-index: 100;
+    position: fixed;
+    top: 5%;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#change-model, #back-button{
+    margin: 10px 10px;
+}
+
+.floating-menu {
+    font-family: sans-serif;
+    background: yellowgreen;
+    padding: 5px;;
+    width: 130px;
+    z-index: 100;
+    position: fixed;
+    bottom: 40%;
+    left: 5%;
+
+}
+  .floating-menu a, 
+  .floating-menu h3 {
+    font-size: 0.9em;
+    display: block;
+    margin: 0 0.5em;
+    color: white;
+  }
+  p{
+    font-size: xx-large;
+  }
